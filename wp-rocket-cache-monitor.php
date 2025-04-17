@@ -4,6 +4,7 @@
  * Description: Monitors the size of WP Rocket cache and sends an email alert if it exceeds a defined limit. Provides a simple admin UI for configuration.
  * Version: 1.3
  * Author: Toman Petr
+ * License: GPL-2.0-or-later
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
