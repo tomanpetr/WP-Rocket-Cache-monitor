@@ -1,24 +1,32 @@
 # WP Rocket Cache Monitor
 
-Monitors WP Rocket cache size and notifies via email if it exceeds a specified limit. Includes a WordPress admin interface to manage thresholds and email settings.
+A simple utility plugin for WordPress that monitors the size of the WP Rocket cache and sends an email notification when the cache size exceeds a specified limit.
 
-## Features
+## ✅ Features
 
 - Monitors the `wp-content/cache/wp-rocket` folder
-- Customizable size limit in GB
-- Email alerts when cache size exceeds the limit
-- Fully compatible with SMTP plugins (e.g. FluentSMTP)
-- Optional custom From and Reply-To headers
-- Simple admin settings UI in **Settings > Rocket Monitor**
-- Dashboard widget with current cache size and manual clear button
-- Auto-localized interface (Czech/English) based on WordPress locale
+- Customizable cache size limit in GB
+- Email notifications when the limit is exceeded
+- Compatible with WordPress `wp_mail()` and SMTP plugins (e.g. FluentSMTP)
+- Option to define custom From and Reply-To headers
+- Admin UI in **Settings > Rocket Monitor**
+- Dashboard widget with current cache size and one-click cache clear
+- Localized interface (Czech or English) based on WordPress locale
 
-## Installation
+## 🔧 Requirements
 
-1. Upload the plugin folder to `/wp-content/plugins/`
-2. Activate it through the WordPress admin
-3. Go to **Settings > Rocket Monitor** to configure
+- WordPress 5.5 or later
+- Active WP Rocket plugin
+- Optional: SMTP plugin for better email delivery
 
-## License
+## 🚀 Installation
 
-MIT
+1. Upload the plugin to the `/wp-content/plugins/` directory
+2. Activate the plugin through the WordPress admin menu
+3. Navigate to **Settings > Rocket Monitor**
+4. Configure your email address and cache size limit
+
+## 📄 License
+
+This plugin is licensed under the **GNU General Public License v2.0 or later**.  
+See the [LICENSE](LICENSE) file for full terms.
